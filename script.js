@@ -31,7 +31,6 @@ right.addEventListener('click', ()=>{
   if (slideNumber < reviewBox.length){
     slider.style.transform = `translateX(-${slideNumber*100}%)`;
     slideNumber++;
-    console.log(slideNumber)
   }else{
     slider.style.transform = `translateX(0%)`;
     slideNumber = 1;
