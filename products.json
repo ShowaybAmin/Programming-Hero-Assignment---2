@@ -1,0 +1,86 @@
+[
+    {
+        "id" : 1,
+        "name" : "Gyro Sandwich",
+        "price" : 15.00,
+        "image" : "./images/gyro-sandwich1-1650490757 1.png",
+        "rating" : 4.8
+    },
+    {
+        "id" : 2,
+        "name" : "BBQ Ribs",
+        "price" : 22.50,
+        "image" : "./images/BBQ-Ribs.webp",
+        "rating" : 4.9
+    },
+    {
+        "id" : 3,
+        "name" : "Green Beans",
+        "price" : 12.00,
+        "image" : "./images/Mask group (1).png",
+        "rating" : 4.9
+    },
+    {
+        "id" : 4,
+        "name" : "Lamb Kebabs",
+        "price" : 19.75,
+        "image" : "./images/Lamb-kebabs.jpg",
+        "rating" : 5.00
+    },
+    {
+        "id" : 5,
+        "name" : "Chicken Pot Pie",
+        "price" : 25.00,
+        "image" : "./images/Mask group (3).png",
+        "rating" : 4.9
+    },
+    {
+        "id" : 6,
+        "name" : "Caprese Salad",
+        "price" : 11.25,
+        "image" : "./images/Caprese Salad.jpg",
+        "rating" : 4.3
+    },
+    {
+        "id" : 7,
+        "name" : "Srimp Scampi",
+        "price" : 18.95,
+        "image" : "./images/Shrimp-scampi.jpg",
+        "rating" : 4.6
+    },
+    {
+        "id" : 8,
+        "name" : "Enchilada",
+        "price" : 25.50,
+        "image" : "./images/Mask group.png",
+        "rating" : 5.0
+    },
+    {
+        "id" : 9,
+        "name" : "Vegetable Stir-Fry",
+        "price" : 14.00,
+        "image" : "./images/Vegetable Stir-Fry.webp",
+        "rating" : 4.4
+    },
+    {
+        "id" : 10,
+        "name" : "Pizza",
+        "price" : 18.50,
+        "image" : "./images/Mask group (2).png",
+        "rating" : 5.0
+    },
+    {
+        "id" : 11,
+        "name" : "Butternut Squash Soup",
+        "price" : 7.5,
+        "image" : "./images/butternut squash soup.JPG",
+        "rating" : 4.5
+    },
+    {
+        "id" : 12,
+        "name" : "Green Salad",
+        "price" : 15.00,
+        "image" : "./images/Mask group (4).png",
+        "rating" : 4.9
+    }
+]
