@@ -99,8 +99,16 @@
         gap: 30px;
     }
 
+    .total-check-out{
+        flex-direction: row;
+    }
+
     .see-more-product-button button{
         flex-direction: row;
+    }
+
+    .showCart .container{
+        transform: translateX(-150px);
     }
 
     
@@ -223,7 +231,6 @@
     .opening{
         width: 80%;
     }
-
 
     .user-link{
         width: 80%;
