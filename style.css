@@ -144,6 +144,11 @@ a:hover{
 
 /* order process start */
 
+.order-item{
+    display: grid;
+    grid-template-columns: 44% 26% 30%;
+}
+
 .delivery-intro-cap{
     font-size: 80px; 
     font-weight: 700; 
@@ -152,13 +157,7 @@ a:hover{
 }
 
 .delivery-intro-no-cap{
-    width: 68%;    
-}
-
-
-.order-process{
-    width: 65%;
-    position: relative;
+    width: 100%;
 }
 
 .order-button{
@@ -213,12 +212,15 @@ a:hover{
     margin-top: 20px;
 }
 
+.arrow-sign{
+    position: relative;
+}
+
 .arrow-dots{
     width: 300px;
     height: auto;
     position: absolute;
     top: 400px;
-    left: 580px;
 }
 
 .arrow-head{
@@ -226,7 +228,11 @@ a:hover{
     height: 70px;
     position: absolute;
     top: 365px;
-    left: 850px;
+    left: 250px;
+}
+
+.display-items{
+    padding: 20% 0%;
 }
 
 /* order process end */
@@ -234,7 +240,6 @@ a:hover{
 /* display-items start */
 
 .display-items{
-    width: 30%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -244,10 +249,21 @@ a:hover{
     position: relative;
 }
 
+.diplay-item-background{
+    width: 100%;
+    height: 220px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 31px 0px #0000000D;
+    margin: 30px 0px;
+}
 
 .display-item-details img{
-    width: 250px;
+    width: 120%;
     height: auto;
+    position: absolute; 
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .display-item-details h4{
@@ -256,6 +272,11 @@ a:hover{
     line-height: 31.69px;
     text-align: center;
     margin: 0px 0px;
+    width: 100%;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .display-item-details p{
@@ -264,12 +285,21 @@ a:hover{
     line-height: 21.94px;
     text-align: center;
     margin: 0px;
+    width: 100%;
+    position: absolute; 
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .display-item-details h5{
     line-height: 21.94px;
     text-align: center;
     margin: 0px;
+    position: absolute; 
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
 }
 /* display-items end */
 
