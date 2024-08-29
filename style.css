@@ -513,6 +513,8 @@ body.showCart .cartTab{
     font-weight: 600;
 }
 
+/* shopping cart end */
+
 
 .see-more-product-button button{
     margin: 30px auto;
@@ -708,8 +710,9 @@ body.showCart .cartTab{
 .subscribe-image img{
     height: 360px;
     width: auto;
-    margin-left: 85px;
-    margin-top: 30px;
+    margin-left: 50%;
+    margin-top: 60%;
+    transform: translate(-50%, -50%);
 }
 
 .subscribe-form{
@@ -722,24 +725,34 @@ body.showCart .cartTab{
 .subscribe-form h3{
     font-size: 30px;
     font-weight: 700;
-    margin: 30px auto;
+    width: 100%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .subscribe-form p{
     font-size: 15px;
     font-weight: 500;
-    margin: 15px 100px;
-    text-align: left;
+    width: 70%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#subscription-message{
+    width: 100%;
+    text-align: center; 
+    width: 100%;
 }
 
 .subscribe-form form{
     width: 50%;
     height: 50px;
-    top: 4521px;
-    left: 1102px;
     border-radius: 15px;
     background: #FFFFFF;
     margin: 20px auto;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .subscribe-form-info input{
